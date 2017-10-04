@@ -41,13 +41,13 @@
 		$x = 1;
 		$y = 1;
 		$maxnumber = 100;
-		echo "angka maksimal : $maxnumber <br>";
+		echo "angka maksimal : $maxnumber <br> Fibonacci : <br>";
 			do {
-				echo "Fibonacci:  $y <br>";
+				echo "$y ";
 				$y = $x + $y;
 				$x = $y - $x;
 			} while ($y <= $maxnumber);
-		
+		//ganti angka max (maxnumber) sesuai keinginan
 		?>
    </body>
 

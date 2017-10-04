@@ -39,7 +39,7 @@
 		
 		//fibonacci
 		$x = 1;
-		$y = 1;
+		$y = 0;
 		$maxnumber = 100;
 		echo "angka maksimal : $maxnumber <br> Fibonacci : <br>";
 			do {
